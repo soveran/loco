@@ -1,0 +1,27 @@
+loco -- Lines of code counter
+
+Description
+-----------
+
+Read from stdin and count the lines, skipping
+those that are empty or commented with #.
+
+Examples
+--------
+
+Count lines in foo.rc:
+
+	$ cat foo.rc | loco
+
+Count lines in many rc files:
+
+	$ cat *.rc | loco
+
+Installation
+------------
+
+Grab `loco.c`, then run:
+
+	$ make loco
+
+Copy the executable anywhere in your path.
